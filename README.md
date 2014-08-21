@@ -66,17 +66,17 @@ To get help on specific action, just type:
 
 Commands:
 
-  forj boot <Blueprint> on <Provider> as <InstanceName> [options]  # boot a Maestro box and instruct it to provision the blueprint
+  $ forj boot <Blueprint> on <Provider> as <InstanceName> [options]  # boot a Maestro box and instruct it to provision the blueprint
 
-  forj down                                                        # delete the Maestro box and all systems installed by the blueprint
+  $ forj down                                                        # delete the Maestro box and all systems installed by the blueprint
 
-  forj help [action]                                               # Describe available FORJ actions or one specific action
+  $ forj help [action]                                               # Describe available FORJ actions or one specific action
 
-  forj setup                                                       # set the credentials for forj cli
+  $ forj setup                                                       # set the credentials for forj cli
 
-  forj show defaults                                               # Show list of predefined value you can update in your ~/.forj/config.yaml
+  $ forj show defaults                                               # Show list of predefined value you can update in your ~/.forj/config.yaml
 
-  forj ssh 
+  $ forj ssh 
 
 
 #### config.yaml description
